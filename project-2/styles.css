@@ -1,0 +1,60 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    overflow: hidden;
+    background-color: black;
+}
+
+.panel {
+    display: flex !important;
+    position: relative;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.panel {
+    z-index: 10 !important;
+}
+
+.modal-dialog {
+    margin-top: 10px !important;
+    padding-left: 10px !important;
+    position: absolute;
+    top: 0;
+    left: -50%;
+    transform: translateX(50%) !important;
+  }
+
+.modal-content{
+    width: 60% !important;
+}
+
+.modal-content{
+    width: 60% !important;
+}
+
+.fade.show {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.fade {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+*.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+
+    -ms-user-select: none;
+    user-select: none;
+ }

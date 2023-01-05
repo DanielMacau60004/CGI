@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Projeto 2</title>
+    <script type="module" src="./app.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div>
+        <div class="modal-dialog panel" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Controls</h5>
+                </div>
+                <div class="modal-body">
+                    <label class="form-label">Theta:</label>
+                    <input type="range" class="form-range" min="-180" max="180" step="1" id="range-theta">
+                    <label id="range-theta-output" class="unselectable"></label>
+                    <br>
+                    <label class="form-label">Gamma:</label>
+                    <input type="range" class="form-range" min="-180" max="180" step="1" id="range-gamma">
+                    <label id="range-gamma-output" class="unselectable"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <canvas id="gl-canvas">
+        Oops! Something went wrong!
+    </canvas>
+</body>
+
+</html>
